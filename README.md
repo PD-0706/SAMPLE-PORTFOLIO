@@ -1,2 +1,2 @@
-# SAMPLE-PORTFOLIO
-A sample portfolio as an reference for anyone whoever needs a website for their portfolio.  Only the frontend is provided.
+WEBSITE DEVELOPMENT
+Providing sample websites as per user preference, wwhich are all created through the power of ai. Only the frontend is provided.
