@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Prince Dutta | Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+      color: black;
+      
+    }
+      
+    
+    header {
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: #f5f5dc;
+    }
+
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    .about {
+      flex: 1;
+      min-width: 300px;
+      background: #f5f5dc;
+      padding: 20px;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .about:hover {
+      transform: scale(1.05);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+
+    .profile {
+      flex: 1;
+      min-width: 300px;
+      text-align: center;
+    }
+
+    .profile .circle {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      background: #f5f5dc;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: auto;
+      font-size: 14px;
+      font-weight: bold;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .profile .circle:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(255,255,255,0.8);
+    }
+
+    .bubble {
+      margin-top: 15px;
+      background: #f5f5dc;
+      display: inline-block;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    .projects, .help {
+      background: #f5f5dc;
+      margin: 30px auto;
+      padding: 20px;
+      width: 80%;
+      border-radius: 15px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .projects:hover, .help:hover {
+      transform: scale(1.03);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+    }
+
+    footer {
+      background: #f5f5dc;
+      padding: 20px;
+      text-align: center;
+      border-radius: 15px 15px 0 0;
+    }
+
+    footer div {
+      margin: 10px 0;
+    }
+
+    .icons span {
+      margin: 0 10px;
+      font-size: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    Prince Dutta
+    
+  </header>
+  
+
+  <div class="container">
+    <div class="about">
+      <h2>About Me</h2>
+      <p>Your bio goes here...</p>
+    </div>
+    <div class="profile">
+      <div class="circle">Your Picture Goes Here</div>
+      <div class="bubble">This is a sample project</div>
+    </div>
+  </div>
+
+  <div class="projects">
+    <h2>Projects</h2>
+    <p>Your projects go here...</p>
+  </div>
+
+  <div class="help">
+    <h2>Help & Queries</h2>
+    <p>Your help and queries go here...</p>
+  </div>
+
+  <footer>
+    <div class="icons">
+      <span>📱</span>
+      <span>📧</span>
+      <span>📷</span>
+      <span>💬</span>
+    </div>
+    <div>Contact details go here...</div>
+  </footer>
+</body>
+</html>
